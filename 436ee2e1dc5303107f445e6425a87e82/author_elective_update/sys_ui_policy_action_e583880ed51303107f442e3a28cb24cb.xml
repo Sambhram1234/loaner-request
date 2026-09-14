@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>other</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 07:59:53</sys_created_on>
+        <sys_id>e583880ed51303107f442e3a28cb24cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>other</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">436ee2e1dc5303107f445e6425a87e82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">436ee2e1dc5303107f445e6425a87e82</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e583880ed51303107f442e3a28cb24cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 07:59:53</sys_updated_on>
+        <table>x_cdltd_loaner_r_0_loaner_request</table>
+        <ui_policy display_value="Show Other depot field">6d308c4ad51303107f442e3a28cb24a2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e583880ed51303107f442e3a28cb24cb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">436ee2e1dc5303107f445e6425a87e82</application>
+        <file_path/>
+        <instance_id>af0a39f7970bcf149a1134c11153af73</instance_id>
+        <instance_name>nowlearning-nlinst04640540-8vt1r-0001</instance_name>
+        <name>sys_ui_policy_action_e583880ed51303107f442e3a28cb24cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>other</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-14 07:59:53</sys_created_on><sys_id>e583880ed51303107f442e3a28cb24cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>other</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">436ee2e1dc5303107f445e6425a87e82</sys_package><sys_policy/><sys_scope display_value="Loaner Request">436ee2e1dc5303107f445e6425a87e82</sys_scope><sys_update_name>sys_ui_policy_action_e583880ed51303107f442e3a28cb24cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-14 07:59:53</sys_updated_on><table>x_cdltd_loaner_r_0_loaner_request</table><ui_policy display_value="Show Other depot field">6d308c4ad51303107f442e3a28cb24a2</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e583880ed51303107f442e3a28cb24cb"/></record_update>]]></payload>
+        <payload_hash>1810688364</payload_hash>
+        <record_name>other</record_name>
+        <reverted_from/>
+        <source>0dffebe9dc9303107f445e6425a87e34</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 07:59:53</sys_created_on>
+        <sys_id>3593c80ed51303107f442e3a28cb2449</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a09eee03bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 07:59:53</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7d93c80eaa13031016639bc98b316d48</update_guid>
+        <update_guid_history>7d93c80eaa13031016639bc98b316d48:1810688364</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 08:03:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>fa65a8c7afe844d4af7bd4fb81b6d090</sys_id>
+        <sys_metadata>e583880ed51303107f442e3a28cb24cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>other</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">436ee2e1dc5303107f445e6425a87e82</sys_package>
+        <sys_parent display_value="Show Other depot field">6d308c4ad51303107f442e3a28cb24a2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">436ee2e1dc5303107f445e6425a87e82</sys_scope>
+        <sys_scope_delete display_value="">2d9a79b4348e4116b4e5b3e51e1d4149</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e583880ed51303107f442e3a28cb24cb</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e583880ed51303107f442e3a28cb24cb">3593c80ed51303107f442e3a28cb2449</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 08:03:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

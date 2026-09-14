@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="428e66e1dc5303107f445e6425a87ed4" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection"/>
+    <element db_object_id="428e66e1dc5303107f445e6425a87ed4" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Depot" max_length="40" name="depot" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Configuration item" max_length="40" name="configuration_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for" max_length="40" name="requested_for" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Item type" max_length="40" name="item_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+    </element>
 </database>
