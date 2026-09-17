@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Malicious Script</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord('x_cdltd_loaner_r_0_loaner_request');
+gr.addQuery('state', '!=', '3');
+gr.query();
+
+while (gr.next()) {
+    gr.state = '3';
+    gr.update();
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-16 06:25:13</sys_created_on>
+        <sys_id>6aa00ea6b81303107f442a01f802ccac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Malicious Script</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">436ee2e1dc5303107f445e6425a87e82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">436ee2e1dc5303107f445e6425a87e82</sys_scope>
+        <sys_update_name>sys_script_fix_6aa00ea6b81303107f442a01f802ccac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-16 06:25:13</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
