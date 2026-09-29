@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Test the Loaner Request form and verify that an end date before the start date is rejected.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>Loaner Request - Validate Dates</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-29 08:22:54</sys_created_on>
+        <sys_id>3d6859b2d5a303107f4463563906dc37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Request - Validate Dates</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">436ee2e1dc5303107f445e6425a87e82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">436ee2e1dc5303107f445e6425a87e82</sys_scope>
+        <sys_update_name>sys_atf_test_3d6859b2d5a303107f4463563906dc37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-29 08:22:54</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=3d6859b2d5a303107f4463563906dc37"/>
+</record_update>
